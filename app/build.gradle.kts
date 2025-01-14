@@ -42,7 +42,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "javafx2.App"
+    mainClass.set("javafx2.Main")
 }
 
 tasks.named<Test>("test") {
